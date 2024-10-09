@@ -1,11 +1,11 @@
 x = input("Введите x: ")
-if int(x) <= 0:
+if float(x) <= 0:
     print(0)
 
-elif int(x) <= 1:
+elif float(x) <= 1:
     print(x)
 
 else:
-    print(int(x)**2)
+    print(float(x)**2)
 
 input()
